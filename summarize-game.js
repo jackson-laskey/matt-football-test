@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const axios = require('axios');
 
 const NPSL_URL = 'https://www.npsl.com/schedule-2025/';
-const OPENAI_API_KEY = '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'; // <-- Insert your API key here
+const OPENAI_API_KEY = 'YOUR_KEY_HERE'; // <-- Insert your API key here
 
 async function extractGameSummaryFromActionLogTab(fixtureFrame) {
   await fixtureFrame.waitForSelector('.public-action-log', { timeout: 10000 });
