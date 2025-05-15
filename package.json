@@ -1,0 +1,14 @@
+{
+  "name": "npsl-scraper",
+  "version": "1.0.0",
+  "description": "Scrape NPSL 2025 schedule and box scores.",
+  "main": "scrape-npsl.js",
+  "scripts": {
+    "start": "node scrape-npsl.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.11.0"
+  }
+}

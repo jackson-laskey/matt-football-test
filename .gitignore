@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Output
+*.log
+*.tmp
+
+# Puppeteer/Chrome
+.chromium/
+
+# VSCode
+.vscode/
+
+# Coverage
+coverage/
+
+# Build output
+dist/
+build/
+
+# Misc
+*.tgz
+
+# Local data
+*.local
+
+# Ignore extracted game summaries and LLM outputs
+game-summary-full.json
+game-summary-llm.txt 
